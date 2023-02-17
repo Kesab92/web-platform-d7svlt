@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: #fbfbfb;
+}
+
+main {
+  padding: 1rem;
+}
+
+.s-Guide {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+.s-Guide__category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+.s-Image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.s-Button {
+  background-color: #fedb00;
+  border: none;
+  border-radius: 100px;
+  height: 30px;
+  width: 150px;
+  color: #434343;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.s-Heading {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  white-space: normal;
+}
+.s-Description {
+  font-size: 12px;
+  font-weight: 400;
+  color: #434343;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
